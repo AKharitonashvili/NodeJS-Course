@@ -1,0 +1,23 @@
+npm run migration:run
+
+
+DATABASE_HOST=localhost
+DATABASE_PORT=3306
+DATABASE_USERNAME=root
+DATABASE_PASSWORD=Password1!
+DATABASE_NAME=vynil_store
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+JWT_SECRET=vynil_store_jwt_secret
+JWT_EXPIRATION=600
+
+STRIPE_SECRET_KEY=
+STRIPE_PUBLIC_KEY=
+
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=example@gmail.com
+EMAIL_PASS=
+EMAIL_FROM=example@gmail.com

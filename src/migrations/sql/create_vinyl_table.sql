@@ -1,0 +1,9 @@
+CREATE TABLE vinyl (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  authorName VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  price DECIMAL(10, 2) NOT NULL,
+  imageUrl VARCHAR(255),
+  averageScore DECIMAL(3, 2) DEFAULT 0
+);
